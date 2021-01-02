@@ -1,0 +1,56 @@
+---
+title: 登入
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+footer: hidden
+---
+
+<div class="container mt-16">
+    <div class="row vh-100 align-items-center">
+        <div class="col-lg-5 position-lg-absolute -left-lg-15 top-0 h-100 d-none d-lg-block">
+            <img class="w-100 h-100"
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true"
+                alt="">
+        </div>
+        <div class="col-md-8 col-lg-7 offset-md-2 offset-lg-5">
+            <h2 class="text-3xl mb-6 mb-md-15">登入</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email" class="text-black">電子信箱</label>
+                    <input type="email" class="form-control text-lg py-3 px-4" id="email" aria-describedby="emailHelp"
+                        placeholder="example@gmail.com">
+
+                </div>
+                <div class="form-group mb-1">
+                    <label for="password" class="text-black">密碼</label>
+                    <input type=" password" class="form-control text-lg  py-3 px-4" id="password" placeholder="請輸入密碼">
+                </div>
+                <a href="" class="text-gray mb-4">忘記密碼</a>
+                <div class="form-group form-check mb-7 mb-lg-4">
+                    <input type="checkbox" class="form-check-input" id="check">
+                    <label class="form-check-label text-black" for="check">記住我的帳號</label>
+                </div>
+                <div class="form-row mb-2">
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                        <a class="d-flex align-items-center justify-content-center btn btn-outline-lighten  text-gray py-1 hover__bg--light"
+                            href=""><img
+                                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/facebook.svg"
+                                alt="">Facebook</a>
+                    </div>
+                    <div class="col-lg-6 mb-10">
+                        <a class="d-flex align-items-center justify-content-center btn btn-outline-lighten text-gray py-1 hover__bg--light"
+                            href=""> <img
+                                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/google.svg"
+                                alt=""> Google</a>
+                    </div>
+                    <div class="col-lg-5 ">
+                        <a type="submit" class="btn btn-secondary w-100" href="member.html">登入</a>
+                    </div>
+
+                </div>
+                <a href="" class="text-secondary">還沒註冊嗎？</a>
+            </form>
+        </div>
+    </div>
+</div>

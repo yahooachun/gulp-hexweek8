@@ -1,0 +1,34 @@
+.position-lg-absolute{
+    @include media-breakpoint-up(lg) {
+        position: absolute;
+    }
+}
+.position-lg-fixed{
+    @include media-breakpoint-up(lg) {
+        position: fixed;
+    }
+}
+.-left-lg-15{ 
+     @include media-breakpoint-up(lg) {
+        left: -15px;
+     }
+}
+.top-0{
+    top: 0;
+}
+.right-6{
+    right: 6%;
+}
+.-bottom-md-9{
+    @include media-breakpoint-up(md) {
+        bottom: -144px;
+    }
+ }
+.bottom-lg-2{
+    @include media-breakpoint-up(lg) {
+        bottom: 32px;
+    }
+ }
+.z-index-1{
+    z-index: 1;
+ }

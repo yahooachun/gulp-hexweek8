@@ -1,0 +1,42 @@
+.h-lg-banner{
+    @include media-breakpoint-up(lg) {
+        height: calc(85vh - 64px);
+    }
+}
+.vh-100{
+    height: calc(100vh - 64px) !important;
+}
+.vh-md-100{
+    @include media-breakpoint-up(md) {
+        height: calc(100vh - 64px) !important;
+    }
+}
+.h-custom-8{
+    height: 132px;
+}
+.h-md-100{
+    @include media-breakpoint-up(md) {
+       height: 100%
+    }
+
+}
+.h-md-50{
+    @include media-breakpoint-up(md) {
+       height: 50%
+    }
+}
+.custom-photo-size{
+    @include media-breakpoint-up(md) {
+        @include size(95px)
+    }
+    @include size(75px) 
+}
+.carousel-img-size{
+    @include media-breakpoint-up(lg) {
+        @include size(96px)
+    }
+    @include media-breakpoint-up(md) {
+        @include size(63px)
+    }
+    @include size(82px)
+}
